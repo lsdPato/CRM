@@ -2,11 +2,10 @@ package com.tcs.crm.dto;
 
 import com.tcs.crm.enums.ClientStatus;
 import com.tcs.crm.enums.Gender;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data //
+@Getter
+@Setter//
 @AllArgsConstructor
 @NoArgsConstructor
 public class ClientDto {

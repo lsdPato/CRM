@@ -7,7 +7,8 @@ import lombok.experimental.SuperBuilder;
 
 @Entity
 @Table(name = "clientes")
-@Data
+@Getter
+@Setter
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
