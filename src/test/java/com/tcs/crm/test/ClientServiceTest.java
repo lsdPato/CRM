@@ -5,6 +5,7 @@ import com.tcs.crm.dto.ClientDto;
 import com.tcs.crm.model.Client;
 import com.tcs.crm.service.ClientService;
 import com.tcs.crm.service.PasswordEcryptor;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -29,6 +30,7 @@ public class ClientServiceTest {
 
     private ClientDto clientDto;
     private Client client;
+
 
     @Test
     void createClientTest() {
