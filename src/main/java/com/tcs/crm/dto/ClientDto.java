@@ -4,8 +4,7 @@ import com.tcs.crm.enums.ClientStatus;
 import com.tcs.crm.enums.Gender;
 import lombok.*;
 
-@Getter
-@Setter//
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class ClientDto {

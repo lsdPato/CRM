@@ -7,8 +7,7 @@ import lombok.*;
 import lombok.experimental.SuperBuilder;
 
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @MappedSuperclass
